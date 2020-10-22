@@ -1,4 +1,8 @@
-#
+# 本週作業：（TOI 練習賽 202004 新手組）
+
+1. [小豪的回家作業](https://toi-reg.csie.ntnu.edu.tw/question/202004/B1-Homework.pdf) (homework.cpp)
+2. [史萊姆生態區](https://toi-reg.csie.ntnu.edu.tw/question/202004/B2-Slime.pdf) (slime.cpp)
+3. [身分驗證機制](https://toi-reg.csie.ntnu.edu.tw/question/202004/B3-Verification.pdf) (verification.cpp)
 
 ---
 
