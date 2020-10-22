@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+// 901526031 000000001 144523050
 int main() {
     int ID = 0, num = 0, max1 = -1, flag = 0, max2 = -1 , N = 0;
     cout << "";
@@ -27,7 +28,7 @@ int main() {
     int ans = 0;
     ans = ID % 1000;
 
-    if ( (max1*max1+max2*max2) == ans ) {
+    if ( (max1 * max1 +max2 *max2) == ans ) {
         cout << "Good Morning!\n";
     } else {
         cout << "SPY!\n";
