@@ -12,6 +12,4 @@ int main() {
     } else {
         cout << r - a << "+" << a << "=" << r;  
     }
-    
-
 }
