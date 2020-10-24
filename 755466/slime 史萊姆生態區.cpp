@@ -12,7 +12,7 @@ int main() {
     //N=1 T=3
     T_plus_N = T + N;
     for (int i = 0; T_plus_N > total; i++) {
-        total = T + i * i; // 0 1 2 4 8 16 32 64 128 
+        total = T + i * i; // 0 1 2 4 8 16 32 64 128 費氏數列
         day += 1;
     }
 
