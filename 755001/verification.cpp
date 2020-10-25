@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc, char const *argv[]) {
   int inputnum[9],max,max2,num1,num2;
-    cin >> inputnum[i]
+    cin >> inputnum[]
   for (size_t j = 0; j <= 9; j++) {
     if (inputnum[j]> max) {
       max = inputnum[j];
