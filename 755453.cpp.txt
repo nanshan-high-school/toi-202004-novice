@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int s, slime, day = 0;
+    cin >> s >> sl;
+    while (slime > 0) {
+        sl -= s;
+        sl /= 2;
+        day++;
+    }
+    cout << day;
+}
