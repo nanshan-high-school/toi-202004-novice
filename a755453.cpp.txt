@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x1 = 0, x2 = 0, h = 0, a, c[9];
+
+    cin >> a;
+
+    c[0] = ((a -  int(a % 10000000)) / 100000000) % 10; 
+    c[1] = ((a - int(a % 1000000)) / 10000000) % 10;
+    c[2] = ((a - int(a % 100000)) / 1000000) % 10;
+    c[3] = ((a - int(a % 10000)) / 100000) % 10;
+    c[4] = ((a - int(a % 1000)) / 10000) % 10;
+    c[5] = ((a - int(a % 100)) / 1000) % 10;
+    c[6] = ((a - int(a % 10)) / 100) % 10;
+    c[7] = ((a - int(a % 1)) / 10) % 10;
+    c[8] = a % 10;
+
+    for(int b = 0 ; b < 9 ; b++) {
+        if(c[b] > x1) {
+            x1 = c[b];
+            h = b;
+        }
+    }
+
+    for(int d = 0 ; d < 9 ; d++) {
+        if((c[d] > x2 ) && (c[d] != c[h])) {
+            x2 = c[b];
+        }
+    }
+
+    if(c[6] * 100 + c[7] * 10 + c[8] == x1 * x1 + x2 * x2) {
+        cout << "Good Morning";
+    }
+    else {
+        cout << "SPY";
+    }
+}
